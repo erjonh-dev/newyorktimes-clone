@@ -39,7 +39,7 @@ REACT_APP_NYT_API_KEY = your api key
 4. Start the server
 
 ```bash
-  npm run dev
+  npm start
 ```
 
 ## Tech Stack
