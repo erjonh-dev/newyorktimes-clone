@@ -44,7 +44,7 @@ REACT_APP_NYT_API_KEY = your api key
 
 ## Tech Stack
 
-**Client:** React, Redux, React Router, TailwindCSS, axios
+**Client:** React, Redux, React Router,axios
 
 **Server:** New York Times API, Netlify
 
