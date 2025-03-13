@@ -10,7 +10,7 @@ Click  for live preview
 
 ## Description
 
-A replica of the New York Times homepage, developed with React. The project uses the official New York Times API to fetch and display top articles, categorized by sections and subsections. The interface is designed to stay true to the original site, providing a smooth and responsive user experience.
+A React-based replica of The New York Times homepage, utilizing the official New York Times API to retrieve and showcase top articles, organized by sections and subsections. The interface closely mirrors the original site, ensuring a seamless and responsive user experience.
 
 
 
