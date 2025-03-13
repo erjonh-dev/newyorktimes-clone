@@ -33,7 +33,7 @@ A replica of the New York Times homepage, developed with React. The project uses
    You can obtain an API key by registering at [New York Times Developer Network](https://developer.nytimes.com/get-started)
 
 ```bash
-VITE_NYT_API_KEY = your api key
+REACT_APP_NYT_API_KEY = your api key
 ```
 
 4. Start the server
