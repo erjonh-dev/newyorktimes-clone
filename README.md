@@ -50,5 +50,5 @@ VITE_NYT_API_KEY = your api key
 
 ## Author
 
-
+https://github.com/HavolliErjon
 
