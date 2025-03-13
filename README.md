@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-Click [Here](https://newyorktimes-clonee.netlify.app/)  for live preview
+Click [Here](https://newyorktimes-clonee.netlify.app/) for live preview
 
 ## Description
 
