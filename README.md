@@ -25,7 +25,7 @@ A React-based replica of The New York Times homepage, utilizing the official New
 2. Install dependencies
 
 ```bash
-  cd NYT-Clone
+  cd newyorktimes-clone
   npm install
 ```
 
