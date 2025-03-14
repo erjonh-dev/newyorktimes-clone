@@ -19,7 +19,7 @@ A React-based replica of The New York Times homepage, utilizing the official New
 1. Clone the project
 
 ```bash
-  git clone https://github.com/HavolliErjon
+  git clone https://github.com/HavolliErjon/newyorktimes-clone.git
 ```
 
 2. Install dependencies
