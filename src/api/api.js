@@ -8,7 +8,8 @@ export const fetchNews = async (section = "home") => {
     const response = await axios.get(`${BASE_URL}${section}.json?api-key=${API_KEY}`);
     return response.data.results;
   } catch (error) {
-    console.error("Errore nel recupero delle news:", error);
+    console.error("Error fetching news:", error);
     return [];
   }
 };
+

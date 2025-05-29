@@ -58,12 +58,12 @@
 /* Media Queries for News Card */
 @media (max-width: 1024px) {
   .news-card {
-    width: calc(50% - 20px); /* 2 cards per row on tablets */
+    width: calc(50% - 20px); 
   }
 }
 
 @media (max-width: 768px) {
   .news-card {
-    width: 100%; /* 1 card per row on mobile */
+    width: 100%;
   }
 }

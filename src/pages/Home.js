@@ -1,25 +1,27 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getNews } from "../store/newsSlice";
+import React from "react";
+import { useQuery } from "@tanstack/react-query";
+import { fetchNews } from "../api/api";
 import NewsCard from "../components/NewsCard";
-import "./Home.css"; // Importa il CSS per il componente Home
+import "./Home.css";
 
 function Home() {
-  const dispatch = useDispatch();
-  const { articles, status, error } = useSelector((state) => state.news);
+  const { data: articles = [], isLoading, isError, error } = useQuery({
+  queryKey: ["news"],
+  queryFn: () => fetchNews(),  
+});
 
-  useEffect(() => {
-    if (status === "idle") {
-      dispatch(getNews());
-    }
-  }, [status, dispatch]);
+
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
+
+  if (isError) {
+    return <p>Error: {error.message}</p>;
+  }
 
   return (
     <div className="container">
-      <h2 className="title">Latest News</h2> {/* Modificato il titolo in inglese */}
-
-      {status === "loading" && <p>Loading...</p>}
-      {status === "failed" && <p>Error: {error}</p>}
+      <h2 className="title">Latest News</h2>
 
       <div className="cardContainer">
         {articles.map((article, index) => (

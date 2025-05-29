@@ -35,6 +35,19 @@
   color: #007bff;
 }
 
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-image {
+  height: 40px; 
+  width: auto;
+  object-fit: contain;
+}
+
+
 /* Media Queries for Navbar */
 @media (max-width: 768px) {
   .navbar {
